@@ -1,0 +1,51 @@
+@media(min-width:320px) and (max-width:575px){
+   .header_text h4{
+      font-size: 40px
+   }
+   .header_contact{
+      display: none;
+   }
+   .logo_part{
+      padding-bottom: 20px;
+   }
+   
+   .navbar-nav .nav-item.men .megamenu:after,
+   .navbar-nav .nav-item.Women .megamenu:after,
+   .navbar-nav .nav-item.Baby .megamenu:after,
+   .navbar-nav .nav-item.Personal .megamenu:after,
+   .navbar-nav .nav-item.food .megamenu:after{
+    left: 13%;
+  
+}
+   .offer_part p {
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+
+   #banner{
+     visibility: visible;
+/*      display: none;*/
+      margin-top: 40px;
+   }
+   .offer_part h4 {
+	font-size: 53px;
+	padding-top: 17px;
+	padding-bottom: 0px;
+}
+   .offer_part p {
+	font-size: 24px;
+}
+   .toggle_bar {
+         color: #fcac45;
+      }
+   .navbar-toggler #navbarSupportedContent{
+      display: inline-block;
+   }
+   .phone_icon,
+   .social_icon{
+      display: none;
+   }
+   #footer_part{
+      text-align: center;
+   }
+}
